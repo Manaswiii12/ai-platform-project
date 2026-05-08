@@ -33,6 +33,12 @@ public class TestController {
         this.geminiService = geminiService;
     }
 
+    // ─── Health Check ─────────────────────────────────────────────────
+    @GetMapping("/")
+    public String home() {
+        return "Backend Running Successfully";
+    }
+
     // ─── Clean string for safe JSON embedding ────────────────────────
     private String clean(String raw) {
         if (raw == null) return "";
