@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "gemini.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'gemini.api.key'"
+  },
+  {
+    "name": "claude.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'claude.api.key'"
+  }
+]}
